@@ -108,21 +108,3 @@ The Lyapunov estimate requires uniformly sampled data. When timestamps are
 present, the estimator infers the median interval and rejects excessive timing
 irregularity. A positive finite-window estimate is an instability indicator; it
 does not prove that a UAV is chaotic.
-
-## Scope And Limitations
-
-The reported backend is a deterministic surrogate with a damped point-mass
-update. It is not a validated PX4 flight, rigid-body simulation, aerodynamic
-model, or physical flight test. The repository does not claim that an LLM
-improves safety or that the metric predicts real aircraft instability.
-
-Before live or physical use, the PX4/Gazebo path requires independent
-verification of force injection, NED/FRD frame conventions, offboard and arming
-state transitions, geofencing, watchdog behavior, failsafe behavior, and manual
-override. Keep all credentials in environment variables and never commit API
-keys.
-
-## Citation
-
-If you use the artifacts, cite the accompanying paper and identify the exact
-seed, duration, time step, and backend used for the reported experiment.

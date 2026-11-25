@@ -13,11 +13,6 @@ freshness, altitude, availability, and threshold gates.
 
 ## Contents
 
-- [`paper/research_paper.pdf`](paper/research_paper.pdf): compiled three-page,
-  two-column research paper.
-- [`paper/research_paper.tex`](paper/research_paper.tex): LaTeX source.
-- [`paper/integration_results.png`](paper/integration_results.png): figure used
-  in the paper.
 - [`src/telemetry_node/`](src/telemetry_node/): minimal Python research
   package used to generate the reference experiment and report.
 - [`requirements.txt`](requirements.txt): Python dependencies.

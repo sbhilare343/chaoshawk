@@ -85,21 +85,6 @@ The tests cover Lorenz reproducibility, the finite-window Lyapunov estimator,
 sampling validation, safety gates, structured-proposal validation, provider
 fallback, and the reference integration loop.
 
-## Compile The Paper
-
-With a LaTeX installation containing `IEEEtran`, `amsmath`, `amsfonts`,
-`booktabs`, `graphicx`, `url`, and `xcolor`:
-
-```bash
-pdflatex -interaction=nonstopmode -halt-on-error \
-  -output-directory=paper paper/research_paper.tex
-pdflatex -interaction=nonstopmode -halt-on-error \
-  -output-directory=paper paper/research_paper.tex
-```
-
-The figure must remain beside the LaTeX source because the source includes
-`integration_results.png` by filename.
-
 ## Additional Tools
 
 The CLI also supports the following reproducible operations:

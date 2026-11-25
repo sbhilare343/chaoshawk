@@ -1,0 +1,31 @@
+{
+  "config": {
+    "duration_s": 35.0,
+    "dt_s": 0.02,
+    "seed": 7,
+    "wind_scale": 0.12,
+    "mode": "supervised",
+    "target_altitude_m": 5.0
+  },
+  "summary": {
+    "mode": "supervised",
+    "samples": 1750,
+    "duration_s": 34.980000000000004,
+    "seed": 7,
+    "wind_scale": 0.12,
+    "instability_peak": 0.08951514318835241,
+    "instability_mean": 0.06994266156343922,
+    "horizontal_rms_error_m": 21.839114299639395,
+    "horizontal_max_error_m": 29.432131840229115,
+    "altitude_mean_m": 8.70055019915957,
+    "altitude_std_m": 2.2161944486418252,
+    "actions": [
+      {
+        "time_s": 4.78,
+        "strategy": "return_to_home"
+      }
+    ]
+  },
+  "telemetry_csv": "results/demo/supervised_telemetry.csv",
+  "backend": "deterministic reference surrogate"
+}

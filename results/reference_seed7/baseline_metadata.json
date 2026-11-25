@@ -1,0 +1,26 @@
+{
+  "config": {
+    "duration_s": 35.0,
+    "dt_s": 0.02,
+    "seed": 7,
+    "wind_scale": 0.12,
+    "mode": "baseline",
+    "target_altitude_m": 5.0
+  },
+  "summary": {
+    "mode": "baseline",
+    "samples": 1750,
+    "duration_s": 34.980000000000004,
+    "seed": 7,
+    "wind_scale": 0.12,
+    "instability_peak": 0.08951514318835241,
+    "instability_mean": 0.06994266156343922,
+    "horizontal_rms_error_m": 72.20629592707093,
+    "horizontal_max_error_m": 99.97223453130005,
+    "altitude_mean_m": 8.60481220446018,
+    "altitude_std_m": 2.836608898893506,
+    "actions": []
+  },
+  "telemetry_csv": "results/demo/baseline_telemetry.csv",
+  "backend": "deterministic reference surrogate"
+}

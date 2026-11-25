@@ -13,6 +13,18 @@ freshness, altitude, availability, and threshold gates.
 
 ## Contents
 
+- [`paper/research_paper.pdf`](paper/research_paper.pdf): compiled three-page,
+  two-column research paper.
+- [`paper/research_paper.tex`](paper/research_paper.tex): LaTeX source.
+- [`paper/project_report.pdf`](paper/project_report.pdf): final four-page report
+  formatted with the supplied A4 double-column submission template.
+- [`paper/project_report.tex`](paper/project_report.tex): final report source.
+- [`paper/integration_results.png`](paper/integration_results.png): figure used
+  in the paper.
+- [`results/reference_seed7/`](results/reference_seed7/): matched baseline and
+  supervised telemetry, metadata, and experiment manifest for the reported
+  seed-7 result.
+>>>>>>> c1d59bed (Publish final report and reference results)
 - [`src/telemetry_node/`](src/telemetry_node/): minimal Python research
   package used to generate the reference experiment and report.
 - [`requirements.txt`](requirements.txt): Python dependencies.
@@ -70,6 +82,10 @@ changes to `return_to_home` at approximately `4.78 s`.
 The supervised reference run reduces horizontal RMS error by approximately
 69.8% and maximum error by approximately 70.6% under identical forcing. This
 is a deterministic integration demonstration, not a statistical evaluation.
+
+The archived result files are in
+[`results/reference_seed7/`](results/reference_seed7/). They contain the two
+telemetry CSV files, one metadata file per mode, and the experiment manifest.
 
 ## Tests
 

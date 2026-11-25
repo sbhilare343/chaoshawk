@@ -1,0 +1,9 @@
+{
+  "output_dir": "/home/user/phd/coursework/projects/uav-chaos-supervisor-v2/results/demo",
+  "modes": [
+    "baseline",
+    "supervised"
+  ],
+  "seed": 7,
+  "duration_s": 35.0
+}

@@ -13,8 +13,6 @@ freshness, altitude, availability, and threshold gates.
 
 ## Contents
 
-- [`paper/research_paper.pdf`](paper/research_paper.pdf): compiled three-page,
-  two-column research paper.
 - [`paper/project_report.pdf`](paper/project_report.pdf): final four-page report
   formatted with the supplied A4 double-column submission template.
 - [`paper/project_report.tex`](paper/project_report.tex): final report source.

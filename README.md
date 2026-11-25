@@ -21,7 +21,6 @@ freshness, altitude, availability, and threshold gates.
 - [`results/reference_seed7/`](results/reference_seed7/): matched baseline and
   supervised telemetry, metadata, and experiment manifest for the reported
   seed-7 result.
->>>>>>> c1d59bed (Publish final report and reference results)
 - [`src/telemetry_node/`](src/telemetry_node/): minimal Python research
   package used to generate the reference experiment and report.
 - [`requirements.txt`](requirements.txt): Python dependencies.
